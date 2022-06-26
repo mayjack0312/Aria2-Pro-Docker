@@ -1,5 +1,3 @@
-**English** | [中文](https://p3terx.com/archives/docker-aria2-pro.html)
-
 # Aria2 Pro Docker
 
 [![LICENSE](https://img.shields.io/github/license/P3TERX/Aria2-Pro-Docker?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Aria2-Pro-Docker/blob/master/LICENSE)
@@ -79,11 +77,6 @@ vim aria2-pro.yml
 docker-compose -f aria2-pro.yml up -d
 ```
 
-### Other
-
-- [Docker templates for UNRAID](https://github.com/P3TERX/unraid-docker-templates)
-- [Docker Tutorial for Synology DSM (Chinese)](https://p3terx.com/archives/synology-nas-docker-advanced-tutorial-deploy-aria2-pro.html)
-
 ## Parameters
 
 | Parameter                        | Function                                                                                                                                                                  |
@@ -103,19 +96,3 @@ docker-compose -f aria2-pro.yml up -d
 | `-e UPDATE_TRACKERS=<BOOLEAN>`   | Whether to update BT Trackers List automatically. Optional: `true` or `flase`, default if left unset is `true`                                                            |
 | `-e CUSTOM_TRACKER_URL=<URL>`    | Custom BT Trackers List URL. If not set, it will be get from https://trackerslist.com/all_aria2.txt.                                                                      |
 | `-e TZ=Asia/Shanghai`            | Specify a timezone to use e.g. `Asia/Shanghai`                                                                                                                            |
-
-## Advanced
-
-I am working hard on my English, so this part may be explained in detail later. If you can read Chinese, read the details in [my blog](https://p3terx.com/archives/docker-aria2-pro.html).
-
-## Credits
-
-* [aria2](https://github.com/aria2/aria2)
-* [P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
-* [P3TERX/Aria2-Pro-Core](https://github.com/P3TERX/Aria2-Pro-Core)
-* [just-containers/s6-overlay](https://github.com/just-containers/s6-overlay)
-* [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection)
-
-## License
-
-[MIT](https://github.com/P3TERX/Aria2-Pro-Docker/blob/master/LICENSE) © P3TERX
